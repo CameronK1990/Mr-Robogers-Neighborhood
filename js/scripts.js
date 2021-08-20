@@ -4,15 +4,16 @@ let pageInput = parseInt($(input#userinput).val());
 
 let robotResArr = [];
 
-function robotResponse (pageInput) {
+function robotResponse ("string") {
   for (let i=0; i <= pageInput; i++) {
-    const pageInput = i.toString();
-    if (pageInput.includes(1)) {
+    const string = i.toString();
+    if (string.includes("1")) {
       robotResArr.push("Beep!");
-    } else if {
-      robotResArr.push(pageInput);
+    } else {
+      robotResArr.push(string);
     }
   }
   return robotResArr;
 }
+
 
