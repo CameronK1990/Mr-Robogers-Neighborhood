@@ -1,13 +1,14 @@
 //Business Logic
-const robotone = "Beep!";
-const robottwo = "Boop!";
-const robotthree = "Wont you be my neighbor?";
 
+let pageInput = parseInt($(input#userinput).val());
 
-function robotResponse (number) {
-  return 0;
+let robotRes = [];
+
+function robotResponse (string) {
+  for (let i=0; i <= pageInput; i++) {
+    const string = i.toString();
+      robotRes.push(string);
+  }
+  return robotRes;
 }
 
-//function robotResponse (text) {
-//  let userInput = 1
-//}

@@ -13,6 +13,8 @@
 
 ## Description
 
+_This is a project exploring arrays and loops for class at Epicodus_
+
 _Describe: robotResponse()_
 
 _TEST 1_
