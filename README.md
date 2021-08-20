@@ -1,39 +1,39 @@
-# _{Application Name}_
+# _Mr. Roboger's Neighborhood_
 
-#### _{Brief description of application}_
+#### _Week 3 Epicodus Project exploring Arrays and Looping_
 
-#### By _**{List of contributors}**_
+#### By _**Cameron Kronsbein**_
 
 ## Technologies Used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+* _HTML_
+* _CSS_
+* _JavaScript_
+
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+_TEST 1_
+_Describe: robotResponse()_
+_Test: "It should return array with a 0 if the number 0 is inputed"_
+_Expect (robotResponse(0).toEqual([0]));_
+
+_
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _Download repository_
+* _Navigate to Directory_
+* _Open index file in broswer_
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
 
 ## License
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_MIT_
 
 ## Contact Information
 
-_{Add your contact information here.}_
+_cameron.kronsbein@gmail.com_
