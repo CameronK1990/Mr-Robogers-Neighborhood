@@ -23,8 +23,24 @@ _Code:function robotResponse (number) {_
 _}_
 
 _TEST 2_
-_Test: "It should return array with Beep! if a 1 is input"_
-_Expect (robotResponse(1).toEqual(["Beep!"]));_
+_Test: "It should not allow alphabetical characters"_
+_Expect: Prevention of alphabetical characters from being entered_
+_Code: required pattern="[0-9]+"_
+_PASSED_
+
+_TEST 3_
+_Test: "It should return "Beep!" if number 1 is input"_
+
+_TEST 4_
+_Test: "It should return "Boop!" if number 2 is input"_
+
+_TEST 5_
+_Test: "It should return "Wont you be my neighbor?" if 3 is input"_
+
+_TEST6_
+_Test: "It should present all responses in array"_
+
+
 
 _
 
