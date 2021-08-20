@@ -15,5 +15,5 @@ function robotResponse (string) {
   }
   return robotResArr;
 }
-
+// working on replacing entered value of 1 to string Beep!
 
