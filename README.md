@@ -55,7 +55,8 @@ _
 
 
 ## Known Bugs
-
+_Working Backend logic_
+_Page is not functional yet_
 
 ## License
 
