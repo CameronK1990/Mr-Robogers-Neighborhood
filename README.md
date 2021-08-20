@@ -19,15 +19,14 @@ _Describe: robotResponse()_
 
 _TEST 1_
 _Test: "It should return array with a 0 if the number 0 is input"_
-_Expect (robotResponse(0).toEqual([0]));_
-_Code:function robotResponse (number) {_
-  _return 0;_
-_}_
+_Expect: pageinput 0 to equal robotResponse function 0_
+_Code: Set Global rules for response Array and assign_ _parsInt to user input. For method to array and set_ _localconst to string value. Push to Array and return._
+_PASSED_
 
 _TEST 2_
 _Test: "It should not allow alphabetical characters"_
 _Expect: Prevention of alphabetical characters from being entered_
-_Code: required pattern="[0-9]+"_
+_Code: input button required pattern="[0-9]+"_
 _PASSED_
 
 _TEST 3_
