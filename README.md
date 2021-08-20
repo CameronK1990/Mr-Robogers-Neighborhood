@@ -13,10 +13,20 @@
 
 ## Description
 
-_TEST 1_
 _Describe: robotResponse()_
-_Test: "It should return array with a 0 if the number 0 is inputed"_
+
+_TEST 1_
+_Test: "It should return array with a 0 if the number 0 is input"_
 _Expect (robotResponse(0).toEqual([0]));_
+_Code:function robotResponse (number) {_
+  _return 0;_
+_}_
+
+_TEST 2_
+_Test: "It should return array with Beep! if a 1 is input"_
+_Expect (robotResponse(1).toEqual(["Beep!"]));_
+
+_
 
 _
 
