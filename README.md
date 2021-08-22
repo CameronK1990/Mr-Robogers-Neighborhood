@@ -36,18 +36,18 @@ _PASSED_
 
 _TEST 4_
 _Test: "It should return "Boop!" if number 2 is input"_
+_Code: continued else if statment to add "Beep" to value of 2 in array string_
+_PASSED_
 
 _TEST 5_
 _Test: "It should return "Wont you be my neighbor?" if 3 is input"_
+_Code: continued if else method to add response for 3 in string. Response "Will you be my neighbor?"_
+_PASSED_
 
 _TEST6_
 _Test: "It should present all responses in array"_
-
-
-
-_
-
-_
+_Code: Include arguements for 1,2,3 in string and allowing other values in string to be included_
+_Passed_
 
 ## Setup/Installation Requirements
 
@@ -57,8 +57,8 @@ _
 
 
 ## Known Bugs
-_Working Backend logic_
 _Page is not functional yet_
+_Working front end logic_
 
 ## License
 
