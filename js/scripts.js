@@ -1,4 +1,4 @@
-//Business Logic
+// Business Logic
 
 const pageInput = ($("input#userinput").val());
 
@@ -19,6 +19,11 @@ function robotResponse (sentence) {
   return robotResArr;
 }
 
-// UI Logic
+// Frontend Logic
 
-
+$(document).ready(function() {
+  $("form#robot").submit(function(event) {
+    event.preventDefault();
+  
+  });
+});
