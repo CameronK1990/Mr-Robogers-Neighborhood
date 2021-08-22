@@ -1,7 +1,4 @@
 // Business Logic
-
-const pageInput = ($("input#userinput").val());
-
 function robotResponse (sentence) {
   let robotResArr = [];
   for (let i = 0; i < sentence.length; i++) {
@@ -24,6 +21,9 @@ function robotResponse (sentence) {
 $(document).ready(function() {
   $("form#robot").submit(function(event) {
     event.preventDefault();
-  
+    let pageInput = ($("input#userinput").val());
+    let robotResponse = robotResponse(sentence);
+    
+      alert(robotResponse);
   });
 });
