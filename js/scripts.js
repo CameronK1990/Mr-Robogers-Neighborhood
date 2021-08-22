@@ -1,19 +1,21 @@
 //Business Logic
 
-const pageInput = parseInt($("input#userinput").val());
+const pageInput = ($("input#userinput").val());
 
-let robotResArr = [];
 
-function robotResponse (string) {
-  for (let i=0; i <= pageInput; i++) {
-    const string = i.toString();
-    if (string.includes(1)) {
+
+function robotResponse (sentence) {
+  let robotResArr = [];
+  for (let i = 0; i < sentence.length; i++) {
+    let character = sentence.charAt(i);
+    if (character.includes("1")) {
       robotResArr.push("Beep!");
     } else {
-      robotResArr.push(string);
+      robotResArr.push(character);
     }
   }
   return robotResArr;
 }
-// working on replacing entered value of 1 to string Beep!
+// working on replacing entered value of 1 to sentence Beep!
+
 

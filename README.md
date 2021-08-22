@@ -31,6 +31,8 @@ _PASSED_
 
 _TEST 3_
 _Test: "It should return "Beep!" if number 1 is input"_
+_Code: Removed ParseInt global rule to make values input a string, Added if else method for value of "1" and pushed "Beep!" to array_
+_PASSED_
 
 _TEST 4_
 _Test: "It should return "Boop!" if number 2 is input"_
