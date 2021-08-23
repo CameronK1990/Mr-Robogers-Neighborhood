@@ -57,8 +57,8 @@ _Passed_
 
 
 ## Known Bugs
-_Page is not functional yet_
-_Working front end logic_
+_Page has basic functionality_
+_Working on styling_
 
 ## License
 
