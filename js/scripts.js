@@ -23,6 +23,6 @@ $(document).ready(function() {
     event.preventDefault();
     const userInput = ($("input#userinput").val());
     const response = robotResponse(userInput);
-    alert.response();
+    alert(response);
   });
 });
