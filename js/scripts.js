@@ -1,9 +1,8 @@
 // Business Logic
-//const userEntry = parseInt($("input#userinput").val());
+
 function robotResponse (sentence) {
   let robotResArr = [];
   for (let i = 0; i <= sentence; i++) {
-//    let character = sentence.chartAt(i);
     if (i.toString().includes("3")) {
       robotResArr.push("Will you be my neighbor?");
     } else if (i.toString().includes("2")) {
@@ -24,6 +23,7 @@ $(document).ready(function() {
     event.preventDefault();
     const userInput = ($("input#userinput").val());
     const response = robotResponse(userInput);
-    alert(response);
+    $("#robottext").append(response);
+    $(".robotsays").show();
   });
 });
