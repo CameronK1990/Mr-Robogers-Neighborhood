@@ -1,16 +1,17 @@
 // Business Logic
+//const userEntry = parseInt($("input#userinput").val());
 function robotResponse (sentence) {
   let robotResArr = [];
-  for (let i = 0; i < sentence.length; i++) {
-    let character = sentence.charAt(i);
-    if (character.includes("3")) {
+  for (let i = 0; i <= sentence; i++) {
+//    let character = sentence.chartAt(i);
+    if (i.toString().includes("3")) {
       robotResArr.push("Will you be my neighbor?");
-    } else if (character.includes("2")) {
+    } else if (i.toString().includes("2")) {
       robotResArr.push("Boop!");
-    } else if (character.includes("1")) {
+    } else if (i.toString().includes("1")) {
       robotResArr.push("Beep!");
     } else {
-      robotResArr.push(character);
+      robotResArr.push(i);
     }
   }
   return robotResArr;
